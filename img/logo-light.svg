@@ -1,0 +1,22 @@
+<svg width="350" height="100" viewBox="0 0 350 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Gradient Definition -->
+    <defs>
+        <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#a91c1c;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#2A2F33;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background with rounded corners -->
+    <rect x="0" y="0" width="350" height="100" rx="10" ry="10" fill="url(#brandGradient)"/>
+    
+    <!-- Curly Brackets -->
+    <text x="20" y="55" font-size="60" font-family="Arial, sans-serif" font-weight="bold" fill="white">{</text>
+    <text x="300" y="55" font-size="60" font-family="Arial, sans-serif" font-weight="bold" fill="white">}</text>
+    
+    <!-- Name -->
+    <text x="65" y="45" font-size="32" font-family="Helvetica, Arial, sans-serif" font-weight="bold" fill="white">David Zuluaga</text>
+    
+    <!-- Subtext -->
+    <text x="125" y="70" font-size="16" font-family="Helvetica, Arial, sans-serif" fill="#e0e0e0">AI Developer</text>
+</svg>

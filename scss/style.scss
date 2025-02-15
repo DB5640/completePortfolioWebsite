@@ -1,0 +1,19 @@
+@use 'custom';
+
+// IMPORT THE COMPONENTES
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+//IMPORT THE SECTIONS 
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/companies';
+@use 'sections/services';
+@use 'sections/testimonials';
+@use 'sections/faq';
+@use 'sections/portfolio';
+@use 'sections/get-started';
+@use 'sections/footer';
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
