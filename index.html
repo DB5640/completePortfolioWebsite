@@ -1,155 +1,247 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html data-bs-theme="dark" lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>David Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/fontawesome.css">
-  <script defer src="./assets/js/bootstrap.bundle.js"></script>
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>David Portfolio</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <script defer src="assets/js/bootstrap.bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+
 </head>
 
 <body data-bs-theme="dark">
-  <!-- START NAVBAR SECTION -->
-  <div>
+<!-- START NAVBAR SECTION -->
+<div>
     <nav class=" navbar navbar-expand-lg menu shadow fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <svg width="85%" viewBox="0 0 380 120" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" style="stop-color:#a91c1c;stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#2A2F33;stop-opacity:1" />
-              </linearGradient>
-            </defs>
-
-            <!-- Centered Background with rounded corners -->
-            <rect x="15" y="5" width="350" height="110" rx="10" ry="10" fill="url(#brandGradient)" />
-
-            <!-- Curly braces -->
-            <text x="20" y="95" font-size="100" font-family="Fira Code,Arial, sans-serif" font-weight="regular"
-              fill="#ffffff">{</text>
-            <text x="300" y="95" font-size="100" font-family="Fira Code,Arial, sans-serif" font-weight="regular"
-              fill="#ffffff">}</text>
-
-            <!-- Name, centered -->
-            <text x="190" y="60" font-size="32" font-family="Fira Code, Arial, sans-serif" font-weight="bold"
-              fill="#ffffff" text-anchor="middle">
-              David Zuluaga
-            </text>
-
-            <!-- Terminal Window Background -->
-            <rect x="110" y="85" width="160" height="22" fill="#455a64" rx="3" />
-
-            <!-- Subtext centered -->
-            <text x="190" y="102" font-size="16" font-family="Fira Code, Arial, sans-serif" fill="#e0e0e0"
-              text-anchor="middle">
-              >_ AI Developer
-            </text>
-          </svg>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav me-5 mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Hogar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Testimonios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">faq</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portafolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-          </ul>
-          <button type="button" class="rounded-pill btn-rounded">+57 3108935340
-            <span>
+        <div class="container">
+            <a class="navbar-brand" href="#">
+<!--                <img src="img/david-zuluaga-logo.png">-->
+            </a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler"
+                    data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link active" href="#">Hogar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">faq</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+                <button class="rounded-pill btn-rounded" type="button">+57 3108935340
+                    <span>
               <i class="fas fa-phone-alt"></i>
             </span>
-          </button>
+                </button>
+            </div>
         </div>
-      </div>
     </nav>
-  </div>
-  <!--START THE INTRO SECTION-->
+</div>
+<!--START THE INTRO SECTION-->
 
-  <section id="home" class="intro-section">
+<section class="intro-section" id="home">
     <div class="">
-      <div class="row align-items-center mx-5">
-        <div class="col-md-6 intros">
-          <h1 class="display-2">
-            <span class="display-2--intro">Hey!, I'm David</span>
-            <span class="display-2--description lh-base">I'm a developer with 2 year experience, working with all web
+        <div class="row align-items-center mx-5">
+            <div class="col-md-6 intros">
+                <h1 class="display-2">
+                    <span class="display-2--intro">Hey!, I'm David</span>
+                    <span class="display-2--description lh-base">I'm a developer with 2 year experience, working with all web
               development technologies, and some back-end techs like java and oracle database</span>
-          </h1>
-          <button type="button" class="rounded-pill btn-rounded">Get in Touch
-            <span>
+                </h1>
+                <button class="rounded-pill btn-rounded" type="button">Get in Touch
+                    <span>
               <i class="fas fa-arrow-right"></i>
             </span>
-          </button>
-        </div>
-        <!-- START THE CONTENT FOR THE VIDEO -->
-        <div class="col-md-6 intros text-end">
-          <div class="video-box">
-            <img src="img/arts/coding-2-31.png" alt="video ilustration" class="img-fluid">
-            <a href="https://www.youtube.com/watch?v=1jHw9x6J2ZQ"
-              class="position-absolute top-50 start-50 translate-middle">
+                </button>
+            </div>
+            <!-- START THE CONTENT FOR THE VIDEO -->
+            <div class="col-md-6 intros text-end">
+                <div class="video-box">
+                    <img alt="video ilustration" class="img-fluid" src="img/arts/coding-2-31.png">
+                    <a class="position-absolute top-50 start-50 translate-middle"
+                       href="https://www.youtube.com/watch?v=1jHw9x6J2ZQ">
               <span>
                 <i class="fas fa-play-circle"></i>
               </span>
-              <span class="border-animation border-animation--border-1"></span>
-              <span class="border-animation border-animation--border-2"></span>
-            </a>
-          </div>
+                        <span class="border-animation border-animation--border-1"></span>
+                        <span class="border-animation border-animation--border-2"></span>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#212529" fill-opacity="1"
-          d="M0,192L48,202.7C96,213,192,235,288,218.7C384,203,480,149,576,144C672,139,768,181,864,181.3C960,181,1056,139,1152,138.7C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
-      </svg>
-  </section>
+        <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,192L48,202.7C96,213,192,235,288,218.7C384,203,480,149,576,144C672,139,768,181,864,181.3C960,181,1056,139,1152,138.7C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+                  fill="#212529"
+                  fill-opacity="1">
+            </path>
+        </svg>
+    </div>
+</section>
 
-  <!-- TRUSTED COMANIES -->
-
-  <section id="companies" class="companies">
+<!-- TECHS -->
+<section class="techs" id="techs">
     <div class="container">
-      <div class="row text-center">
-        <h4 class="fw-bold lead mb-3">Trusted by companies like</h4>
-        <div class="heading-line mb-5"></div>
-      </div>
+        <div class="row text-center">
+            <h4 class="fw-bold lead mb-3">Technologies</h4>
+            <div class="heading-line mb-5"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 2 logo" class="img-fluid" src="img/technologies/tailwind.png"
+                         title="Technology 2 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 3 logo" class="img-fluid" src="img/technologies/spring.png"
+                         title="Technology 3 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 4 logo" class="img-fluid" src="img/technologies/sass.png"
+                         title="Technology 4 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 5 logo" class="img-fluid" src="img/technologies/react.png"
+                         title="Technology 5 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 6 logo" class="img-fluid" src="img/technologies/python.png"
+                         title="Technology 6 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 7 logo" class="img-fluid" src="img/technologies/oracleplsql.png"
+                         title="Technology 7 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 8 logo" class="img-fluid" src="img/technologies/oracle.png"
+                         title="Technology 8 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 9 logo" class="img-fluid" src="img/technologies/nodejs.png"
+                         title="Technology 9 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 10 logo" class="img-fluid" src="img/technologies/javascript.png"
+                         title="Technology 10 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 11 logo" class="img-fluid" src="img/technologies/java.png"
+                         title="Technology 11 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 12 logo" class="img-fluid" src="img/technologies/html.png"
+                         title="Technology 12 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 13 logo" class="img-fluid" src="img/technologies/css.png"
+                         title="Technology 13 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 14 logo" class="img-fluid" src="img/technologies/bootstrap.png"
+                         title="Technology 14 Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img alt="Technology 15 logo" class="img-fluid" src="img/technologies/angular.png"
+                         title="Technology 15 Logo">
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- START COMPANIES CONTENT -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4"></div>
-        <div class="companies__logobox">
-          <img src="img" alt="company logo" class="img-fluid">
-        </div>
-      </div>
+    <div class="swiper-slide">
+        <img alt="HTML logo" class="img-fluid" src="./img/technologies/html.png">
+        <img alt="CSS logo" class="img-fluid" src="./img/technologies/css.png">
+        <img alt="JavaScript logo" class="img-fluid"
+             src="./img/technologies/javascript.png">
+        <img alt="SASS logo" class="img-fluid" src="./img/technologies/sass.png">
+        <img alt="NodeJS logo" class="img-fluid"
+             src="./img/technologies/nodejs.png">
+        <img alt="React logo" class="img-fluid"
+             src="./img/technologies/react.png">
+        <img alt="Bootstrap logo" class="img-fluid"
+             src="./img/technologies/bootstrap.png">
+        <img alt="Tailwind logo" class="img-fluid"
+             src="./img/technologies/tailwind.png">
+        <img alt="Java logo" class="img-fluid" src="./img/technologies/java.png">
+        <img alt="Oracle logo" class="img-fluid"
+             src="./img/technologies/oracle.png">
+        <img alt="Oracle PLSQL logo" class="img-fluid"
+             src="./img/technologies/oracleplsql.png">
     </div>
-  </section>
 
-
+</section>
 </body>
 
 </html>
